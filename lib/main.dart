@@ -10,10 +10,8 @@ var loginFormApp = ChangeNotifierProvider(
   create: (context) => SimpleState(),
   child: MyApp(),
 );
-//a
+
 class SimpleState with ChangeNotifier {
-
-
   late String octitle='';
   late String ocscore='';
   late String octext='';
